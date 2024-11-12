@@ -52,13 +52,13 @@ No algoritmo anterior, um array comum foi utilizado para armazenar os números, 
 
 ## Comparação de Performance
 
-##Algoritmo Anterior:
+## Algoritmo Anterior:
 
 - **Armazenamento:** Array
 - **Verificação de duplicatas:** `includes()` (O(n))
 - **Eficiência:** Geração de números e verificação duplicada, causando mais iterações.
 
-Algoritmo Atual:
+## Algoritmo Atual:
 - **Armazenamento:** `Set`
 - **Verificação de duplicatas:** Automática, O(1)
 - **Eficiência:** Menos iterações e tempo de execução reduzido.
