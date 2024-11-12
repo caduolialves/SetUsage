@@ -25,13 +25,13 @@ function gerarAleatorios() {
 ## Como Funciona:
 
 
-1. `Set` para garantir unicidade: O `Set` é utilizado para armazenar os números aleatórios. Ele garante automaticamente que não haverá números duplicados, já que um `Set` só permite elementos únicos.
+1. **`Set` para garantir unicidade:** O `Set` é utilizado para armazenar os números aleatórios. Ele garante automaticamente que não haverá números duplicados, já que um `Set` só permite elementos únicos.
 
-2. Laço `while`: O laço continua até que o `Set` contenha exatamente 6 números únicos. Cada vez que um número é gerado, ele é tentado inserir no `Set`, que ignora valores repetidos.
+2. **Laço `while`:** O laço continua até que o `Set` contenha exatamente 6 números únicos. Cada vez que um número é gerado, ele é tentado inserir no `Set`, que ignora valores repetidos.
 
-3. Geração de números aleatórios: A expressão `Math.floor(Math.random() * 60 + 1)` é responsável por gerar números inteiros aleatórios entre 1 e 60.
+3. **Geração de números aleatórios:** A expressão `Math.floor(Math.random() * 60 + 1)` é responsável por gerar números inteiros aleatórios entre 1 e 60.
 
-4. Conversão para Array: Após o `Set` conter 6 números únicos, ele é convertido em um array com `Array.from()`, já que um array é uma estrutura de dados mais comum para retornar listas de valores em JavaScript.
+4. **Conversão para Array:** Após o `Set` conter 6 números únicos, ele é convertido em um array com `Array.from()`, já que um array é uma estrutura de dados mais comum para retornar listas de valores em JavaScript.
 
 ## Mudanças em Relação ao Algoritmo Anterior
 
